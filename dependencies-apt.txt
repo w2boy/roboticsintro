@@ -1,1 +1,2 @@
 # LIST YOUR APT PACKAGES HERE
+# Run `dts devel build` after editing this file
