@@ -1,0 +1,44 @@
+/mater/joy_mapper_node (node)
+/mater/joy_mapper_node/car_cmd (msg type: Twist2DStamped)
+/mater/car_cmd_switch_node (node)
+/mater/car_cmd_switch_node/cmd (msg type: Twist2DStamped)
+/mater/kinematics_node (node)
+/mater/wheels_driver_node/wheels_cmd (msg type: WheelsCmdStamped)
+/mater/wheels_driver_node (node)
+
+-------------------------------------------------------------------/mater/lane_controller_node (node)
+/mater/lane_controller_node/car_cmd (msg type: Twist2DStamped)
+/mater_car_cmd_switch_node (node)
+/mater/car_cmd_switch_node/cmd (msg type: Twist2DStamped)
+/mater/kinematics_node (node)
+/mater/wheels_driver_node/wheels_cmd (msg type: WheelsCmdStamped)
+/mater/wheels_driver_node (node)
+
+------------------------------------------------------------------
+/mater/fsm_node/mode
+Message type: duckietown_msgs/FSMState
+Subscriber
+
+/mater/simple_stop_controller_node/car_cmd
+Message type: duckietown_msgs/Twist2DStamped
+Subscriber
+
+/mater/lane_controller_node/car_cmd
+Message type: duckietown_msgs/Twist2DStamped
+Subscriber
+
+/mater/joy_mapper_node/car_cmd
+Message type: duckietown_msgs/Twist2DStamped
+Subscriber
+
+/mater/coordinator_node/car_cmd
+Message type: duckietown_msgs/Twist2DStamped
+Subscriber
+
+/mater/unicorn_intersection_node/car_cmd
+Message type: duckietown_msgs/Twist2DStamped
+Subscriber
+
+/mater/car_cmd_switch_node/cmd
+Message type: duckietown_msgs/Twist2DStamped
+Publisher
