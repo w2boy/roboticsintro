@@ -6,7 +6,8 @@
 /mater/wheels_driver_node/wheels_cmd (msg type: WheelsCmdStamped)
 /mater/wheels_driver_node (node)
 
--------------------------------------------------------------------/mater/lane_controller_node (node)
+-------------------------------------------------------------------
+/mater/lane_controller_node (node)
 /mater/lane_controller_node/car_cmd (msg type: Twist2DStamped)
 /mater_car_cmd_switch_node (node)
 /mater/car_cmd_switch_node/cmd (msg type: Twist2DStamped)
